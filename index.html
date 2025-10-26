@@ -9,11 +9,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <script>
-    const FORMSPREE_ENDPOINT = "";
-    const VIDEO_ID = "dQw4w9WgXcQ";
+    const FORMSPREE_ENDPOINT = ""; // напр.: https://formspree.io/f/XXXXXXX
+    const VIDEO_ID = "dQw4w9WgXcQ"; // YouTube ID — замени на свой
   </script>
 </head>
 <body>
+  <!-- Header -->
   <header class="nav">
     <div class="wrap nav-inner">
       <a href="#home" class="brand">
@@ -34,6 +35,7 @@
     </div>
   </header>
 
+  <!-- Hero -->
   <section id="home" class="hero light">
     <div class="wrap hero-grid">
       <div>
@@ -54,6 +56,19 @@
     </div>
   </section>
 
+  <!-- WHY -->
+  <section id="why" class="section soft">
+    <div class="wrap">
+      <h2>Почему присоединяются к AktivAge</h2>
+      <div class="cards three mt">
+        <div class="card"><div class="card-head">Понятно и спокойно</div><p class="muted">Объясняем простым языком, без суеты.</p></div>
+        <div class="card"><div class="card-head">Занятия каждый день</div><p class="muted">Live и записи на любой уровень.</p></div>
+        <div class="card"><div class="card-head">Тёплое сообщество</div><p class="muted">Клубы по интересам и поддержка 24/7.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Classes -->
   <section id="classes" class="section">
     <div class="wrap">
       <h2>Выберите направление</h2>
@@ -90,6 +105,7 @@
     </div>
   </section>
 
+  <!-- Live -->
   <section id="live" class="section soft">
     <div class="wrap">
       <h2>Ближайшие live‑занятия</h2>
@@ -116,6 +132,7 @@
     </div>
   </section>
 
+  <!-- On-Demand -->
   <section id="ondemand" class="section">
     <div class="wrap">
       <h2>Библиотека записей</h2>
@@ -140,6 +157,54 @@
     </div>
   </section>
 
+  <!-- Clubs -->
+  <section id="clubs" class="section soft">
+    <div class="wrap">
+      <h2>Клубы по интересам</h2>
+      <p class="sub">Путешествия, кулинария, книги. Общение и поддержка.</p>
+      <div class="cards three mt">
+        <div class="card row between">
+          <div class="card-head">Travel Club</div>
+          <a class="btn secondary" href="#lead">Вступить</a>
+        </div>
+        <div class="card row between">
+          <div class="card-head">Cooking Club</div>
+          <a class="btn secondary" href="#lead">Вступить</a>
+        </div>
+        <div class="card row between">
+          <div class="card-head">Book Club</div>
+          <a class="btn secondary" href="#lead">Вступить</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Guides -->
+  <section id="guides" class="section">
+    <div class="wrap">
+      <h2>Наши наставники</h2>
+      <p class="sub">Ровесники, которые объясняют просто и с заботой.</p>
+      <div class="cards three mt">
+        <div class="card">
+          <div class="card-head">Ирина · Йога 50+</div>
+          <p class="muted">20 лет практики. Мягкая растяжка, дыхание, осанка.</p>
+          <a class="btn secondary w" href="#lead">Записаться к Ирине</a>
+        </div>
+        <div class="card">
+          <div class="card-head">Сергей · Смартфон</div>
+          <p class="muted">WhatsApp, госуслуги, безопасность. Без спешки.</p>
+          <a class="btn secondary w" href="#lead">Записаться к Сергею</a>
+        </div>
+        <div class="card">
+          <div class="card-head">Анна · Память</div>
+          <p class="muted">Короткие упражнения для внимания и памяти.</p>
+          <a class="btn secondary w" href="#lead">Записаться к Анне</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
   <section id="pricing" class="section">
     <div class="wrap">
       <h2>Простой тариф</h2>
@@ -164,6 +229,7 @@
     </div>
   </section>
 
+  <!-- Lead Form -->
   <section id="lead" class="section soft">
     <div class="wrap leadbox">
       <div>
@@ -178,6 +244,28 @@
     </div>
   </section>
 
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="wrap">
+      <h2>Частые вопросы</h2>
+      <div class="cards three mt">
+        <div class="card">
+          <div class="card-head">Нужно ли ставить Zoom?</div>
+          <p class="muted">Можно смотреть в браузере, Zoom — по желанию.</p>
+        </div>
+        <div class="card">
+          <div class="card-head">Подходит ли новичкам?</div>
+          <p class="muted">Да. Темп спокойный, всё пошагово и с примерами.</p>
+        </div>
+        <div class="card">
+          <div class="card-head">Можно отменить подписку?</div>
+          <p class="muted">В любой момент, в один клик в личном кабинете.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer class="footer">
     <div class="wrap grid3">
       <div>

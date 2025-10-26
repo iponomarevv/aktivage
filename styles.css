@@ -25,7 +25,7 @@ body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
 .btn.primary:hover{background:var(--brand-2)}
 .btn.secondary{background:#edf8f3;color:#0d684a;border:1px solid #cfeee2}
 .btn.outline{background:transparent;border-color:var(--brand);color:var(--brand)}
-.btn.ghost{background:transparent;border-color:var(--border);color:var(--ink)}
+.btn.ghost{background:transparent;border-color:var(--border);color:#0b1320}
 .btn.w{width:100%}
 .mt{margin-top:16px}
 .mt8{margin-top:8px}
@@ -59,10 +59,10 @@ h2{font-size:28px;margin:0 0 6px}
 .with-thumb .thumb{display:block;width:100%;height:auto;border-radius:10px;border:1px solid var(--border)}
 .leadbox{display:grid;grid-template-columns:1fr;gap:12px;border:1px solid var(--border);border-radius:14px;padding:16px;background:#fff}
 .leadform{display:flex;gap:10px;flex-wrap:wrap}
-.input{flex:1;min-width:220px;border-radius:12px;border:1px solid var(--border);background:#fff;color:var(--ink);padding:10px 12px}
+.input{flex:1;min-width:220px;border-radius:12px;border:1px solid var(--border);background:#fff;color:#0b1320;padding:10px 12px}
 .msg{margin-top:10px;font-size:14px;padding:10px 12px;border-radius:12px}
 .msg.info{background:#fff7e6;border:1px solid #ffe0a6;color:#8a6b0c}
-.msg.success{background:#eefbf3;border:1px solid #c9edd9;color:#176b4a}
+.msg.success{background:#eefbf3;border:1px solid #cfeedd;color:#176b4a}
 .msg.error{background:#fff0f0;border:1px solid #ffc9c9;color:#8a1f1f}
 .footer{padding-top:8px}
 .grid3{display:grid;grid-template-columns:1fr;gap:16px;padding:26px 0}
